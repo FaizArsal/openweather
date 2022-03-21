@@ -1,0 +1,108 @@
+/* .linkss li{
+    text-decoration: none;
+    font-style: italic;
+    border: 2px solid red;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .mainDiv{
+    /* border: 2px solid rgb(255, 17, 17); */
+    /* width: 100%;
+    height: 30px; */
+    /* background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat; */
+    /* height: 10px; */
+    
+  }
+  
+  .myNavBar {
+    width: 100%;
+    padding: 25px;
+    border: 2px solid rgb(17, 12, 12);
+    /* margin-top: 30px; */
+    /* justify-content: space-between; */
+    /* background-color: rgb(144, 125, 161); */
+    height: 80px;
+    background-image: url(./images/bg1-removebg-preview.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    /* padding-top: 30px; */
+    
+
+    
+  }
+  .myNavBar ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  .myNavBar ul li{
+        /* border: 2px solid rgb(255, 136, 0); */
+        /* margin-bottom: 30px; */
+        /* border: 2px solid rgb(255, 136, 0); */
+        text-decoration: none;
+        height: 40px;
+        padding-top: 10px;
+        margin: 0 10px;
+  }
+  .myNavBar ul li:hover{
+    background-color: rgb(255, 136, 0);
+    border-radius: 30px;
+  }
+  
+  .navlinks {
+    color: black ;
+    /* background-color: royalblue; */
+    padding: 8px;
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
+
+  }
+  
+  .homePage {
+    background-color: red !important;
+    
+  }
+
+  .myNavBar li{
+    /* border: 2px solid rgb(156, 23, 218);    */
+    text-decoration: none;
+    text-transform: none;
+  }
+  .alLinks{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    /* width: 100%;*/
+    height: 10vh; 
+
+  }
+  .one
+ {
+   border: 2px solid red;
+   background-image: linear-gradient(to bottom right, red, yellow);
+
+ } 
+ .bgImg{
+   /* width: 100%;
+   height: 100vh;*/
+    
+    border: 2px solid black; 
+   /* margin-top: -21px; */
+ /* background-image: url(./images/links.jpg); 
+   background-repeat: no-repeat;  */
+ }
+ .bgLinks{
+   border: 2px solid red;
+   margin-top: -21px;
+   background-image: linear-gradient(to bottom right, rgba(7, 7, 7, 0.76), #000000);
+
+ }
